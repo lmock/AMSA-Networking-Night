@@ -83,6 +83,51 @@ a:hover, a:active, a:focus {
   color: #fff;
 }
 
+
+
+.btn { border: 1px solid #ddd; border-radius: 0; background: transparent; }
+.btn:Hover { opacity: 1; }
+.btn-lg { font-size: 28px; }
+.btn-3d { background: #fe4918; color: #fff; border:1px solid transparent; border-bottom: 5px solid #BA3512; border-radius: 4px; }
+.btn-3d .fa { opacity: .4; color: #333; margin-right: 10px; }
+.btn-3d span { position: relative; top:-8px; }
+.btn-3d:Hover { border: 1px solid #ddd; background: #fff; color: #fe4918 !important; border-bottom: 5px solid #ddd; }
+.btn-3d:Hover .fa { opacity: 1; color: #fe4918; }
+
+.color .btn-3d { color: #fe4918 !important;  background: #fff; border-color: #ddd; }
+.color .btn-3d .fa { color: #fe4918 !important; }
+
+.btn-primary { opacity: 1; background: #fe4918; color: #fff; border-color:#fe4918;}
+.btn-primary:Hover { background: #f2613a; color: #fff; border-color:#fe4918; }
+
+.btn-secondary { opacity: 1; background: #25201f; color: #fff; border-color:#4d4645;}
+.btn-secondary:Hover { background: #4d4645; color: #fff; border-color:#4d4645; }
+
+.btn-tertiary { opacity: 1; background: transparent; }
+.btn-tertiary:Hover { background: #fff; color: #fe4918 !important; border-color:#fff; }
+
+.btn-default { opacity: 1; background: transparent; }
+.btn-default:Hover { background: #fe4918; color: #fff; border-color:#fe4918; }
+
+.color .btn-default { opacity: 1; background: transparent; color: #fff; border-color:#fff;}
+.color .btn-default:Hover { background: #fff; color: #fe4918; border-color:#fff; }
+
+.btn-lg { font-size: 35px; padding:21px 55px; }
+.btn-sm { font-size: 20px; padding:17px 43px; }
+.btn-xs { font-size: 18px; padding:13px 35px; }
+.btn-3d { padding-left: 15px; padding-right: 30px; font-size: 22px; padding-top: 9px; padding-bottom: 9px; }
+
+.btn.btn-lg.btn-3d {
+  background: #fe4918;
+  color: #fff;
+  border: 1px solid transparent;
+  border-bottom: 5px solid #BA3512;
+  border-radius: 4px;
+}
+
+
+
+
 hr {
   width: 20px;
   border-top: 1px solid #fe4918;
