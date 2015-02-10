@@ -566,7 +566,7 @@ hr.white {
 }
 .nav-tabs-default .nav-tabs li {
   text-align: center;
-  width: 16.66%;
+  width: 100%;
 }
 .nav-tabs-default .nav-tabs li a,
 .nav-tabs-default .nav-tabs li a:Hover,
